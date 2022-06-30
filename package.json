@@ -1,7 +1,7 @@
 {
   "name": "amw-backend",
   "version": "1.0.0",
-  "description": "Backend service for Admin Map Webservice",
+  "description": "Backend service for Admin Map Websocket",
   "scripts": {
     "start": "node ./bin/www",
     "test": "node ./bin/test"
