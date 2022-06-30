@@ -4,8 +4,8 @@ let debug = require('debug')('app:mqtt');
 let config = {
     host: process.env.MQTT_HOST || 'localhost',
     port: process.env.MQTT_PORT || 3306,
-    username: process.env.MQTT_USER,
-    password: process.env.MQTT_PASS,
+    username: process.env.MQTT_USER || null,
+    password: process.env.MQTT_PASS || null,
     reconnectPeriod: 1000
 };
 
