@@ -1,0 +1,15 @@
+.auth-card{
+    max-width: 510px;
+}
+
+.login-subtitle{
+    text-align: center;
+}
+
+.fas{
+    width: 20px;
+}
+
+.validation-text {
+    display: inline-block;
+}
